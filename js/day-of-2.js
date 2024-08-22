@@ -234,3 +234,54 @@ let result  = x.concat(" ", y)
 console.log(result)
 
 console.log(challenge.repeat(2))
+
+console.log("The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.")
+
+stringOn = "10"
+numberOn = 10
+console.log(parseInt(stringOn) == numOne)
+
+let numberY = "9.8"
+console.log(parseFloat(numberY) == numOne)
+
+
+let wordOne = "python"
+let wordTwo = "jargon"
+console.log(wordOne.includes("on"))
+console.log(wordTwo.includes("on"))
+
+const sayiUret= Math.floor(Math.random () * 101) // 0 ile 100 arasında rastgele sayı oluşturur
+console.log(sayiUret)
+
+const sayiUretElli = Math.floor(Math.random() * 51)
+console.log(sayiUretElli)
+
+const sayiUretBesElli = Math.floor(Math.random() * 256)
+console.log(sayiUretBesElli)
+
+let wordThree = "Javascript"
+let lengtThree = wordThree.length
+let randomwordThree = Math.floor(Math.random() * lengtThree)
+console.log(randomwordThree)
+
+let sentenceOne = "'Bir cümleyi çünkü ile bitiremezsiniz çünkü çünkü bir bağlaçtır'"
+console.log(sentenceOne.substring(37, 49))
+
+let sentenceTwo = 'love is the best thing in this world. Some have found their love and some are still looking for their love.'
+let wantedWord = "love"
+let sonucIki = sentenceTwo.split(wantedWord).length - 1
+console.log(sonucIki)
+
+const sentenceThree = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
+
+let newSentence = sentenceThree.replace(/[%$@&#]/g, '')
+console.log(newSentence)
+
+const sentenceFour = "Aylık maaşından 5000 euro, yıllık 10000 euro ikramiye, ayda 15000 euro online kurstan kazanıyor."
+let regEx = /\d+/
+let newList = sentenceFour.match(/\d+/g);
+let gelirBir = parseInt(newList[0])
+let gelirIki = parseInt(newList[1])
+let gelirUc = parseInt(newList[2])
+let toplamGelir = gelirBir + gelirIki + gelirUc
+console.log(toplamGelir)
