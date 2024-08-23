@@ -1,4 +1,4 @@
-console.log("Javascript ikinci güne hoş geldiniz.")
+console.log("DAY 2")
 //Veri Türlri
 //İLKEL VERİ TÜRLERİ (değiştirilemez)
 /*Numbers - Tamsayılar - Ondalık sayılar
@@ -12,9 +12,9 @@ Symbol - Sembol yapıcısı tarafından oluşturulabilen benzersiz bir değer */
 
 /*Objects ( Nesneler )
 Arrays ( Diziler )  köşeli parantez kullanılır.[] */
-let numOne = 2
-let numTwo = 2
-console.log(numOne == numTwo)
+let numBir = 2
+let numBirBir = 2
+console.log(numBir == numBirBir)
 let js = 'JavaScript'
 let py = 'Python'
 console.log(js == py)
@@ -239,10 +239,10 @@ console.log("The quote 'There is no exercise better for the heart than reaching 
 
 stringOn = "10"
 numberOn = 10
-console.log(parseInt(stringOn) == numOne)
+console.log(parseInt(stringOn) == numBir)
 
 let numberY = "9.8"
-console.log(parseFloat(numberY) == numOne)
+console.log(parseFloat(numberY) == numBir)
 
 
 let wordOne = "python"
